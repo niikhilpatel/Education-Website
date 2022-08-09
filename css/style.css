@@ -115,6 +115,11 @@ nav{
     z-index: 11;
 }
 
+/*change navbar styles on scroll using javascript*/
+.window-scroll {
+    background: #6c63ff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
 .nav__container{
     height: 100%;
     display: flex;
@@ -160,3 +165,75 @@ header{
 .header__left p{
     margin: 1rem 0 2.4rem;
 }
+
+
+
+/*           Categories      */
+
+
+.categories h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories__container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+/*    gap: 4rem;*/
+}
+
+.categories__left p{
+    margin: 1rem 0 3rem;
+}
+
+.categories__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.category{
+    background: #424890;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: all 400ms ease;
+}
+
+.category:hover{
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.category:nth-child(2) .category__icon{
+    background: #f75842;
+}
+
+.category:nth-child(3) .category__icon{
+    background: #00bf8e;
+}
+
+.category:nth-child(4) .category__icon{
+    background: #f7c94b;
+}
+
+.category:nth-child(5) .category__icon{
+    background: #00bf8e;
+}
+
+.category:nth-child(6) .category__icon{
+    background: #6c63ff;
+}
+.category__icon{
+    background: #6c63ff;
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category h5{
+    margin: 2rem 0 1rem;
+}
+
+.category p{
+    font-size: 0.85rem;
+}
+
