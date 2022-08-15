@@ -500,5 +500,72 @@ footer ul li a:hover{
     }
 
 
-    /*1:52:00*/
+    /*==============  Header =============*/
+
+
+    header{
+        height: 52vh;
+        margin-bottom: 4rem;
+    }
+
+    .header__container{
+        gap: 0;
+        padding-bottom: 3rem;
+    }
+
+    /* categories*/
+
+    .categories{
+        height: auto;
+    }
+
+    .categories__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .categories__left{
+        margin-right: 0;
+    }
+
+    /* Popular course*/
+    .courses{
+        margin-top: 0;
+    }
+
+    .courses__container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* FAQs*/
+    .faqs__container{
+        grid-template-columns: 1fr;
+    }
+
+    .faq{
+        padding: 1.5rem;
+    }
+
+    /* Footer*/
+
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+    /*     Media Queries (Phone/Mobile)      */
+
+    /*    1:58:00     */
+
+
+
+
+
+
+
+
+
+
+
 }
