@@ -556,7 +556,21 @@ footer ul li a:hover{
 
     /*     Media Queries (Phone/Mobile)      */
 
-    /*    1:58:00     */
+    @media  screen and (max-width: 600px){
+        .container{
+            max-width: 94%;
+        }
+        
+    }
+
+
+    /*------------   NAVBAR  --------------- */
+
+
+
+    
+
+    /* FOOTER*/
 
 
 
