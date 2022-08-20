@@ -1,4 +1,4 @@
-/* 2:12:32*/
+/* 2:14:33*/
 
 .about__achievements{
     margin-top: 3rem;
@@ -9,4 +9,23 @@
     grid-template-columns: 40% 60%;
     gap: 5rem;
 }
+
+.about__achievements-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievements__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement__card{
+    background:  #2e3267;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
 
