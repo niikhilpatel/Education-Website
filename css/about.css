@@ -1,5 +1,3 @@
-/* 2:14:33*/
-
 .about__achievements{
     margin-top: 3rem;
 }
@@ -28,4 +26,29 @@
     transition: all 400ms ease;
 }
 
+.achievement__card:hover{
+    background: #424890;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.achievement__icon{
+    background: #f75842;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.achievement__card:nth-child(2) .achievement__icon{
+    background: #00bf8e;
+}
+
+.achievement__card:nth-child(3) .achievement__icon{
+    background: #6c63ff;
+}
+
+.achievement__card p{
+    margin-top: 1rem;
+}
 
